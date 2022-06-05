@@ -14,23 +14,21 @@
 ![top명령어 예t시](https://user-images.githubusercontent.com/104613926/172048413-5c466755-6002-49ac-a069-642614cc8e3e.png)
 
 
-**1)첫번째 줄은 시스템 현재시간, 서버 구동시간, 현재 접속 유저수, 
-로드 에버리지(1분,5분,15분 동안 시스템 부하량 평균값)을 출력한다.**
+1)첫번째 줄은 시스템 현재시간, 서버 구동시간, 현재 접속 유저수, 
+로드 에버리지(1분,5분,15분 동안 시스템 부하량 평균값)을 출력한다.
 ![가장 윗줄](https://user-images.githubusercontent.com/104613926/172048515-f798a9b4-2820-4b64-b1b5-b1317b9f41a6.png)
 
 
-**2)두번째 줄은 현재프로세스들의 상태(Tasks)를 나타내며 전체프로세스(total)수, 실행중(running)수, 
-대기중(sleeping)수, 종료(stoppde)수, 좀비(zombie)수를 출력한다.**
+2)두번째 줄은 현재프로세스들의 상태(Tasks)를 나타내며 전체프로세스(total)수, 실행중(running)수, 
+대기중(sleeping)수, 종료(stoppde)수, 좀비(zombie)수를 출력한다.
 ![두번쨰 줄](https://user-images.githubusercontent.com/104613926/172048580-04c96bc4-5fbb-420c-9718-99ad33713816.png)
 
-
-**3)세번째 줄은 CPU사용량을 나타내며 사용자 프로세스(us), 커널 프로세스(sy), 프로세스 우선순위(ni), 
-사용안하는 비율(id), IO완료를기다리는 비율(wa), 소프트웨어 인터럽트(si), VM에 할당된 비율(st)을 출력한다.**
+3)세번째 줄은 CPU사용량을 나타내며 사용자 프로세스(us), 커널 프로세스(sy), 프로세스 우선순위(ni), 
+사용안하는 비율(id), IO완료를기다리는 비율(wa), 소프트웨어 인터럽트(si), VM에 할당된 비율(st)을 출력한다.
 ![세번째 줄](https://user-images.githubusercontent.com/104613926/172048660-c042e09d-5c6e-46a9-837e-e5855e892253.png)
 
-
-**4)마지막 줄은 RAM의 메모리 영역과 그 다음 줄은디스크를 메모리 처럼 이용하는 Swap 메모리 영역이다.
-총 메모리 양(total), 사용가능 메모리 양(free), 사용중 메모리 양(used), 커널 버퍼 사용메모리 양(buff/cache), 물리적 메모리 양(avail Mem)**
+4)마지막 줄은 RAM의 메모리 영역과 그 다음 줄은디스크를 메모리 처럼 이용하는 Swap 메모리 영역이다.
+총 메모리 양(total), 사용가능 메모리 양(free), 사용중 메모리 양(used), 커널 버퍼 사용메모리 양(buff/cache), 물리적 메모리 양(avail Mem)
 ![마지막 줄](https://user-images.githubusercontent.com/104613926/172048677-0c782fab-a9a7-4b23-8400-880189c484cf.png)
 
 
@@ -55,14 +53,14 @@
 + COMMAND : 해당 프로세스를 실행한 커맨드를 나타냅니다.
 
 ### **top용 커맨드**
-1) **k - kill process**
+1) k - kill process
 >top를 통해 프로세스를 모니터링하며 프로세스를 종료해야겠다고 생각할 수 있습니다. 이때 top에서는 top화면을 보며 프로세스를 종료할 수 있는 기능을 제공해주고 있습니다. 해당 기능을 사용하기 위한 커맨드는 k입니다.**
-2) **Sorting the process list**
+2) **Sorting the process list
 **> 디테일 영역에 대해서 원하는 값을 기준으로 정렬하는 방법을 제공합니다. 제공하는 커맨드는 아래와 같습니다. 또한 이미지는 메모리 사용량을 기준으로 정렬한 값입니다.**
-**>> + ‘M’ to sort by memory usage**
-**>> + ‘P’ to sort by CPU usage**
-**>> + ‘N’ to sort by process ID**
-**>> + ‘T’ to sort by the running time**
-**>> + ‘R’ to sort by 오름차순과 내림차순을 토글 변경합니다.**
-**3) Showing a list of threads instead of processes**
-**> top는 기본적으로 프로세스를 기본으로하여 정보를 보여줍니다. 하지만 H를 누르면 쓰레드(thread)를 기준으로 보여주는 방식으로 변경됩니다. 변경되는 부분은 요약의 Tasks 영역과 디테일 영역입니다.**
+>> + ‘M’ to sort by memory usage
+>> + ‘P’ to sort by CPU usage
+>> + ‘N’ to sort by process ID
+>> + ‘T’ to sort by the running time
+>> + ‘R’ to sort by 오름차순과 내림차순을 토글 변경합니다.
+3) Showing a list of threads instead of processes
+> top는 기본적으로 프로세스를 기본으로하여 정보를 보여줍니다. 하지만 H를 누르면 쓰레드(thread)를 기준으로 보여주는 방식으로 변경됩니다. 변경되는 부분은 요약의 Tasks 영역과 디테일 영역입니다.
