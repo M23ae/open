@@ -35,6 +35,7 @@
 
 **top 명령어를 입력하면 아래와 같은 화면이 출력된다.**
 
+
 ![top명령어 예t시](https://user-images.githubusercontent.com/104613926/172048413-5c466755-6002-49ac-a069-642614cc8e3e.png)
 
 
