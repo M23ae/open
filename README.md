@@ -1,16 +1,17 @@
-> + **top(table of processes)명령어**
-> + **디테일 영역**
-> + **top용 커맨드**
-+ **ps(Process Status)명령어**
-> + **ps옵션**
-+ **jobs명령어**
-> + **jobs옵션**
-+ **kill명령어**
-> + **kill옵션**
-+ **VIM에디터**
-> + **매크로 사용방법(q)
+### **top(table of processes)명령어**
+> **디테일 영역**
 
+> **top용 커맨드**
+### **ps(Process Status)명령어**
+> **ps옵션**
+### **jobs명령어**
+> **jobs옵션**
+### **kill명령어**
+> **kill옵션**
+### **VIM에디터**
+> **매크로 사용방법(q)**
 
+********
 
 # **linux 명령어**
 
