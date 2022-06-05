@@ -54,13 +54,15 @@
 
 ### **top용 커맨드**
 1) k - kill process
->top를 통해 프로세스를 모니터링하며 프로세스를 종료해야겠다고 생각할 수 있습니다. 이때 top에서는 top화면을 보며 프로세스를 종료할 수 있는 기능을 제공해주고 있습니다. 해당 기능을 사용하기 위한 커맨드는 k입니다.**
-2) **Sorting the process list
-**> 디테일 영역에 대해서 원하는 값을 기준으로 정렬하는 방법을 제공합니다. 제공하는 커맨드는 아래와 같습니다. 또한 이미지는 메모리 사용량을 기준으로 정렬한 값입니다.**
->> + ‘M’ to sort by memory usage
->> + ‘P’ to sort by CPU usage
->> + ‘N’ to sort by process ID
->> + ‘T’ to sort by the running time
->> + ‘R’ to sort by 오름차순과 내림차순을 토글 변경합니다.
+>top를 통해 프로세스를 모니터링하며 프로세스를 종료해야겠다고 생각할 수 있습니다. 이때 top에서는 top화면을 보며 프로세스를 종료할 수 있는 기능을 제공해주고 있습니다. 해당 기능을 사용하기 위한 커맨드는 **k**입니다.
+2) Sorting the process list
+> 디테일 영역에 대해서 원하는 값을 기준으로 정렬하는 방법을 제공합니다. 제공하는 커맨드는 아래와 같습니다. 또한 이미지는 메모리 사용량을 기준으로 정렬한 값입니다.
+>> + **‘M’** to sort by memory usage
+>> + **‘P’** to sort by CPU usage
+>> + **‘N’** to sort by process ID
+>> + **‘T’** to sort by the running time
+>> + **‘R’** to sort by 오름차순과 내림차순을 토글 변경합니다.
 3) Showing a list of threads instead of processes
-> top는 기본적으로 프로세스를 기본으로하여 정보를 보여줍니다. 하지만 H를 누르면 쓰레드(thread)를 기준으로 보여주는 방식으로 변경됩니다. 변경되는 부분은 요약의 Tasks 영역과 디테일 영역입니다.
+> top는 기본적으로 프로세스를 기본으로하여 정보를 보여줍니다. 하지만 **H**를 누르면 쓰레드(thread)를 기준으로 보여주는 방식으로 변경됩니다. 변경되는 부분은 요약의 Tasks 영역과 디테일 영역입니다.
+4) Filtering through processes
+> 프로세스가 너무 많다면 필터링 기능또한 제공해주고 있습니다. 해당 기능을 사용하기 위해서는 **o** 또는 **O**를 누르시면 됩니다. 필터는 COMMAND, %CPU 등등 다양한 방법으로 가능합니다.
