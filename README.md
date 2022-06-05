@@ -47,6 +47,7 @@
 
 
 
+
 2)두번째 줄은 현재프로세스들의 상태(Tasks)를 나타내며 전체프로세스(total)수, 실행중(running)수, 
 대기중(sleeping)수, 종료(stoppde)수, 좀비(zombie)수를 출력한다.
 
